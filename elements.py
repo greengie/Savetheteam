@@ -16,12 +16,12 @@ class Glove(object):
         return int(self.y)
 
     def move_left(self):
-        self.x -= 8
+        self.x -= 10
         if self.x < 0:
             self.x = 0
 
     def move_right(self):
-        self.x += 8
+        self.x += 10
         if self.x > 750:
             self.x = 750
    
